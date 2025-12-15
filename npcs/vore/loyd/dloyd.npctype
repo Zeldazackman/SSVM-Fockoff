@@ -1,0 +1,129 @@
+{
+  "type" : "pred_dloyd",
+  "baseType" : "villager",
+  
+  "identity" : {
+	"gender" : "male"
+  },
+  
+  "scriptConfig" : { 
+	"questGenerator" : {
+      "pools" : ["common"],
+      "enableParticipation" : true,
+	  "graduation" : {
+	    "nextNpcType" : []
+	  }
+    },
+    "dialog" : {
+      "tenant" : {
+        "grumbles" : {
+          "tagCriteria" : {
+			"default" : {
+			  "default" : [
+							""
+			  ]
+			}
+		  },
+          "enclosedArea" : {
+			"default" : {
+			  "default" : [
+							""
+			  ]
+			}
+		  },
+          "otherDeed" : {
+			"default" : {
+			  "default" : [
+							""
+			  ]
+			}
+		  },
+          "severe" : {
+			"default" : {
+			  "default" : [
+							""
+			  ]
+			}
+		  },
+          "final" : {
+			"default" : {
+			  "default" : [
+							""
+			  ]
+			}
+          }
+		},
+        "arrivedHome" : {
+          "beacon" : {
+			"default" : {
+			  "default" : [
+							""
+			  ]
+			}
+		  },
+          "rent" : {
+			"default" : {
+			  "default" : [
+							""
+			  ]
+			}
+          }
+		}
+      },
+      "flee" : {
+        "helpme" : {
+		  "default" : {
+			"default" : [
+							""
+			]
+		  }
+		},
+        "safe" : {
+		  "default" : {
+			"default" : [
+							""
+			]
+		  }
+        }
+	  },
+      "greeting" : {
+        "default" : {
+          "default" : [
+            "Hello."
+          ]
+        }
+      },
+	  "converse" : {
+        "default" : {
+          "default" : [
+						""
+          ]
+        }
+      }
+    }
+  },
+  "disableWornArmor" : false,
+  "scriptDelta" : 5,
+  
+  "scripts" : [ "/npcs/bmain.lua",
+				"/npcs/vore/loyd/dloyd.lua" 
+  ],
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+			"head" : [
+              { "name" : "sbq_nude_head", "parameters" : { "colorIndex" : 0 } }
+            ],
+			"chest" : [
+              { "name" : "loydchest", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "legs" : [
+              { "name" : "loydsoil1", "parameters" : { "colorIndex" : 0 } }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

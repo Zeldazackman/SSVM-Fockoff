@@ -16,8 +16,8 @@
 			"transition"  :  "idle"
 		  },
 		  "swallow"  :  {
-		    "frames"  :  21,
-			"cycle"  :  3.0,
+		    "frames"  :  12,
+			"cycle"  :  2.0,
 			"mode"  :  "end",
 			"transition"  :  "fullbig"
 		  },
@@ -49,12 +49,12 @@
 		    "mode" : "end"
 		  },
 		  "microtonone" :  {
-		    "frames"  :  28,
-		    "cycle"  :  5.0,
+		    "frames"  :  13,
+		    "cycle"  :  4.0,
 		    "mode" : "end"
 		  },
 		  "release"  :  {
-		    "frames"  :  21,
+		    "frames"  :  13,
 			"cycle"  :  2.5,
 			"mode"  :  "end"
 		  }
